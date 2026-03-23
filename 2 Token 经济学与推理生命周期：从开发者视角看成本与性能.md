@@ -111,4 +111,3 @@ $$ \text{VRAM}_{\text{KV}} = 2 \times \text{Layers} \times \text{HiddenSize} \ti
 > 3. **框架选型**：部署 Agent 服务时，禁用原生 `transformers.generate()`，改用 vLLM 或 SGLang，并开启 `enable_prefix_caching=True`，可显著降低重复上下文的 Prefill 开销。
 
 ---
-如需继续生成第三章（Agentic AI 架构与核心范式），请回复“继续”。
