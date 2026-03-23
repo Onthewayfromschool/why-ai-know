@@ -84,7 +84,7 @@ Golden Dataset (覆盖边界/异常/多轮)
 
 ---
 
-## 5.5🔍生产环境三大隐形坑（主动补充）
+## 5.5 🔍生产环境三大隐形坑（主动补充）
 
 ### 5.5.1 Prompt 版本控制与 CI/CD
 Prompt 即代码（Prompt-as-Code）。必须纳入 Git 管理，配套 Staging 环境验证、A/B 测试与灰度发布。禁止直接在生产环境手改 Prompt。
