@@ -13,6 +13,7 @@
 | [第五章](5%20Token%20经济学与推理生命周期：从开发者视角看成本与性能.md) | Token 经济学与推理生命周期 | 上下文通胀、输入输出不对称性、Prefill/Decode 阶段、KV Cache 与显存优化 |
 | [第六章](6%20工程落地与最佳实践：从%20Demo%20到%20Production%20的跨越.md) | 工程落地与最佳实践 | 三阶段演进路径、Prompt 工程化、评估体系、可观测性、成本优化 |
 | [第七章](7%20大模型%20API%20协议的演进与架构设计.md) | 大模型 API 协议的演进与架构设计 | 协议乱象起源、OpenAI/Anthropic/DashScope 三大阵营、多协议系统工程架构（ILLMClient 抽象 + 工厂路由 + 协议转换隔离） |
+| [第八章](8%20AI%20时代的浏览器自动化：从脚本驱动到%20Agent%20驱动.md) | AI 时代的浏览器自动化 | Selenium→Playwright 演进史、Chrome DevTools MCP、Playwright MCP、Token 消耗优化、agent-browser、OpenCLI、CLI-Anything |
 
 ## 🎯 适合谁读
 

@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "AoneCode MCP": {
+      "id": "aonecode-mcp",
+      "description": "AoneCode MCP SSE 服务",
+      "type": "sse",
+      "enabled": true,
+      "required": true,
+      "url": "https://mcp.alibaba-inc.com/code/sse",
+      "transportType": "sse",
+      "autoApprove": []
+    },
+    "fe-knowledge": {
+      "id": "fe-knowledge",
+      "description": "前端组件物料知识查询服务",
+      "type": "stdio",
+      "enabled": true,
+      "required": true,
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ali/fe-knowledge@latest"
+      ],
+      "transportType": "stdio",
+      "autoApprove": []
+    },
+    "feknowledge": {
+      "autoApprove": [],
+      "disabled": false,
+      "timeout": 60,
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ali/fe-knowledge@latest"
+      ],
+      "transportType": "stdio"
+    }
+  }
+}
